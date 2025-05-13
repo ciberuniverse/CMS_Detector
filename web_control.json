@@ -1,0 +1,281 @@
+[
+  {
+    "strapi": [
+      "/api/articles",
+      "/api/posts",
+      "/api/users",
+      "/api/categories",
+      "/api/auth/local"
+    ],
+    "wordpress": [
+      "/wp-json/wp/v2/posts",
+      "/wp-json/wp/v2/pages",
+      "/wp-json/wp/v2/users",
+      "/wp-json/wp/v2/comments",
+      "/wp-json/"
+    ],
+    "ghost": [
+      "/ghost/api/v5/content/posts/?key=NOKEY",
+      "/ghost/api/v5/content/pages/?key=NOKEY",
+      "/ghost/api/v5/content/authors/?key=NOKEY",
+      "/ghost/api/v5/content/tags/?key=NOKEY",
+      "/ghost/api/v5/admin/site/?key=NOKEY"
+    ],
+    "directus": [
+      "/items/articles",
+      "/items/posts",
+      "/items/users",
+      "/collections",
+      "/health"
+    ],
+    "payload cms": [
+      "/api/posts",
+      "/api/users",
+      "/api/pages",
+      "/api/globals",
+      "/api/comments"
+    ],
+    "keystonejs": [
+      "/api/graphql",
+      "/admin/api",
+      "/admin/",
+      "/api/schema",
+      "/api"
+    ],
+    "tinacms": [
+      "/api/preview",
+      "/api/content",
+      "/api/query",
+      "/api/reset",
+      "/api/media"
+    ],
+    "processwire": [
+      "/api/pages",
+      "/api/fields",
+      "/api/templates",
+      "/api/modules",
+      "/api/status"
+    ],
+    "kirby": [
+      "/api/pages",
+      "/api/files",
+      "/api/site",
+      "/api/users",
+      "/api/system"
+    ],
+    "magnolia": [
+      "/.rest/pages",
+      "/.rest/assets",
+      "/.rest/nodes",
+      "/.rest/templates",
+      "/.rest/dam"
+    ],
+    "adobe commerce (magento)": [
+      "/rest/V1/products",
+      "/rest/V1/categories",
+      "/rest/V1/customers",
+      "/rest/V1/carts/mine",
+      "/rest/V1/orders"
+    ],
+    "manifest": [
+      "/api/content",
+      "/api/pages",
+      "/api/assets",
+      "/api/users",
+      "/api/config"
+    ]
+  },
+  {
+    "prismic": "prismic.io",
+    "contentful": "contentful.com",
+    "sanity": "sanity.io",
+    "datocms": "datocms.com",
+    "buttercms": "buttercms.com",
+    "agility cms": "agilitycms.com",
+    "storyblok": "storyblok.com",
+    "cosmic": "cosmicjs.com",
+    "api in code": "/api/",
+    "typeflo": "typeflo.io",
+    "coremedia or webiny": ".com/graphql",
+    "contentstack": "contentstack.io",
+    "optimizely cms": "optimizely.com"
+  },
+  {
+    "strapi": [
+      "/api/articles",
+      "/api/posts",
+      "/api/users",
+      "/api/categories",
+      "/api/tags",
+      "/api/upload",
+      "/api/roles",
+      "/api/permissions",
+      "/api/auth/local",
+      "/api/content-manager/collection-types",
+      "/admin"
+    ],
+    "wordpress": [
+      "/wp-json/",
+      "/wp-json/wp/v2/posts",
+      "/wp-json/wp/v2/pages",
+      "/wp-json/wp/v2/categories",
+      "/wp-json/wp/v2/tags",
+      "/wp-json/wp/v2/comments",
+      "/wp-json/wp/v2/users",
+      "/wp-json/wp/v2/media",
+      "/wp-json/wp/v2/settings",
+      "/wp-json/jwt-auth/v1/token",
+      "/xmlrpc.php"
+    ],
+    "ghost": [
+      "/ghost/api/v5/content/posts/?key=NOKEY",
+      "/ghost/api/v5/content/pages/?key=NOKEY",
+      "/ghost/api/v5/content/authors/?key=NOKEY",
+      "/ghost/api/v5/content/tags/?key=NOKEY",
+      "/ghost/api/v5/admin/site/?key=NOKEY",
+      "/ghost/api/v5/admin/posts/",
+      "/ghost/api/v5/admin/pages/",
+      "/ghost/api/v5/admin/members/",
+      "/ghost/api/v5/admin/tiers/",
+      "/ghost/api/v5/admin/newsletters/",
+      "/ghost/api/v5/admin/offers/"
+    ],
+    "directus": [
+      "/server/health",
+      "/server/ping",
+      "/items",
+      "/collections",
+      "/fields",
+      "/users/me",
+      "/roles",
+      "/permissions",
+      "/files",
+      "/folders",
+      "/activity"
+    ],
+    "payload cms": [
+      "/api/posts",
+      "/api/users",
+      "/api/pages",
+      "/api/globals",
+      "/api/comments",
+      "/api/access",
+      "/api/logout",
+      "/api/preferences",
+      "/admin",
+      "/media",
+      "/api/settings"
+    ],
+    "keystonejs": [
+      "/admin/api",
+      "/admin/",
+      "/api/graphql",
+      "/api",
+      "/keystone",
+      "/keystone/session",
+      "/keystone/config",
+      "/_keystone/api",
+      "/_keystone/health"
+    ],
+    "tinacms": [
+      "/api/preview",
+      "/api/content",
+      "/api/query",
+      "/api/reset",
+      "/api/media",
+      "/api/files/upload",
+      "/admin/index.html",
+      "/admin/config.json",
+      "/admin/collections",
+      "/admin/globals"
+    ],
+    "processwire": [
+      "/api/pages",
+      "/api/fields",
+      "/api/templates",
+      "/api/modules",
+      "/api/status",
+      "/site/assets/files/",
+      "/site/templates/api/",
+      "/wire/api/",
+      "/wire/modules/",
+      "/site/config.php"
+    ],
+    "kirby": [
+      "/api/pages",
+      "/api/pages/home",
+      "/api/files",
+      "/api/site",
+      "/api/users",
+      "/api/system",
+      "/panel/api/options",
+      "/panel/api/site",
+      "/media/pages/",
+      "/media/site/"
+    ],
+    "magnolia": [
+      "/.rest/pages",
+      "/.rest/assets",
+      "/.rest/nodes",
+      "/.rest/templates",
+      "/.rest/dam",
+      "/.rest/contacts",
+      "/.rest/favorites",
+      "/.rest/workflows",
+      "/.rest/categories",
+      "/.rest/configuration"
+    ],
+    "adobe commerce (magento)": [
+      "/rest/V1/products",
+      "/rest/V1/categories",
+      "/rest/V1/customers",
+      "/rest/V1/carts/mine",
+      "/rest/V1/orders",
+      "/rest/V1/inventory/source-items",
+      "/rest/V1/stockItems",
+      "/rest/V1/guest-carts",
+      "/rest/V1/guest-carts/:cartId",
+      "/rest/V1/shipping-methods"
+    ],
+    "manifest": [
+      "/api/content",
+      "/api/pages",
+      "/api/assets",
+      "/api/users",
+      "/api/config",
+      "/api/themes",
+      "/api/navigation",
+      "/api/cache",
+      "/api/deploy",
+      "/admin/login"
+    ]
+  },
+  {
+    "strapi": "https://docs.strapi.io/",
+    "wordpress": "https://developer.wordpress.org/rest-api/",
+    "ghost": "https://ghost.org/docs/content-api/",
+    "directus": "https://docs.directus.io/",
+    "payload cms": "https://payloadcms.com/docs",
+    "keystonejs": "https://keystonejs.com/docs",
+    "tinacms": "https://tina.io/docs/",
+    "processwire": "https://processwire.com/docs/",
+    "kirby": "https://getkirby.com/docs/reference/panel/api",
+    "magnolia": "https://documentation.magnolia-cms.com/",
+    "adobe commerce (magento)": "https://developer.adobe.com/commerce/webapi/rest/",
+    "manifest": "https://manifest.build/docs/introduction",
+    "prismic": "https://prismic.io/docs",
+    "contentful": "https://www.contentful.com/developers/docs/",
+    "sanity": "https://www.sanity.io/docs",
+    "datocms": "https://www.datocms.com/docs",
+    "buttercms": "https://buttercms.com/docs/api/",
+    "agility cms": "https://help.agilitycms.com/hc/en-us/categories/360002003953-Developer-Resources",
+    "storyblok": "https://www.storyblok.com/docs",
+    "cosmic": "https://www.cosmicjs.com/docs",
+    "api in code": "https://example.com/api/", 
+    "typeflo": "https://typeflo.io/docs",
+    "coremedia or webiny": "https://webiny.com/docs/webiny-apps/headless-cms/overview/",
+    "contentstack": "https://www.contentstack.com/docs/",
+    "optimizely cms": "https://docs.developers.optimizely.com/content-cloud/v12.0.0/"
+  }
+  
+]
